@@ -1,0 +1,125 @@
+html {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+
+  font-family: "Noto Kufi Arabic", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+body {
+  background-color: rgb(30, 0, 77);
+}
+
+.div-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 130px;
+}
+
+.div-2 {
+  background-color: rgb(232, 239, 239);
+  width: 70%;
+}
+
+.div-3 {
+  width: 100%;
+  background-color: rgb(92, 52, 155);
+  text-align: center;
+  color: white;
+  padding: 8px 0;
+}
+
+.head-p {
+  display: inline;
+  padding: 0;
+  margin: 0;
+  font-weight: 500;
+}
+
+button {
+  border: none;
+  outline: none;
+  font-size: 20px;
+  box-shadow: 0px 3px 5px rgba(168, 168, 168, 0.38);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.btn {
+  float: right;
+  margin-right: 10px;
+  background-color: white;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.div-4 {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid black;
+  margin: 15px;
+  transition: box-shadow 0.3s;
+}
+
+.done {
+  background-color: rgb(158, 253, 160);
+}
+
+.div-4:hover {
+  box-shadow: 0px 3px 15px rgba(97, 97, 97, 0.843);
+}
+
+.div-4-content {
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.div-4-content button {
+  color: white;
+}
+
+.div-4-text {
+  width: 70%;
+  height: 100%;
+}
+
+@media (max-width: 750px) {
+  .div-4 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+  .div-4-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .div-4-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 450px) {
+  .div-2 {
+    width: 100%;
+  }
+}
